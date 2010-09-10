@@ -10,7 +10,7 @@ function miquote_info()
         "authorsite"    => "http://github.com/OwlManAtt",
         "version"       => "1.0",
         "guid"      => "2e1b65f2-9431-4ecb-b063-45f1172b2c21",
-        "compatibility" => "16*"
+        "compatibility" => "*"
     );
 }
 
