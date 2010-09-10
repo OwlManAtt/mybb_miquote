@@ -1,0 +1,14 @@
+== Purpose ==
+This is a plugin that aliases [miquote][/miquote] to [quote][/quote]. It achieves this by switching
+the miquote tags out for regular quote before the post text is given to the BBcode parsing bit.
+
+It supports all arguments that [quote] would normally support because this is just changing the tag out.
+
+== Installing ==
+1. Place ``miquote.php'' in inc/plugins.
+2. Edit inc/functions_posting.php, line 215. Change the ``[quote . . . [/quote]'' to miquote and /miquote.
+    * MyBB doesn't have a hook that would let the plugin change this bit. Sorry. :/
+3. Activate the plugin in the admin control panel.
+
+== License ==
+Do whatever you want. Go hog wild. I don't care.
