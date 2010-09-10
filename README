@@ -7,6 +7,7 @@ It supports all arguments that [quote] would normally support because this is ju
 == Installing ==
 1. Place ``miquote.php'' in inc/plugins.
 2. Edit inc/functions_posting.php, line 215. Change the ``[quote . . . [/quote]'' to miquote and /miquote.
+    * This fixes the quote button on the forums. 
     * MyBB doesn't have a hook that would let the plugin change this bit. Sorry. :/
 3. Activate the plugin in the admin control panel.
 
